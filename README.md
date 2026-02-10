@@ -1,1 +1,1 @@
-Lorem ipsum
+![behold a wol](./img/wol.png)
