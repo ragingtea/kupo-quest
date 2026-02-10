@@ -1,1 +1,0 @@
-![behold a wol](./img/wol.png)
