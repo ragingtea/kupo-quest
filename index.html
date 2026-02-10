@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.5;
+            background-color: #FFF;
+            font-size: 16px;
+            color: #3a3a3a;
+            text-align: center;
+        }
+
+        .bounce {
+            background-color: #ffffff;
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .bounce p {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            line-height: 50px;
+            text-align: center;
+            transform: translateX(50%);
+            animation: bouncing-text 10s ease-in-out infinite alternate;
+        }
+
+        @keyframes bouncing-text {
+            0% {
+                transform: translateX(50%);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</head>
+
+<body>
 <img src="./img/wol.png" alt="1 kupo">
+<div class="bounce">
+    <p>kupo kupo kupo</p>
+</div>
+</body>
+
+</html>
+
