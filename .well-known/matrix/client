@@ -1,0 +1,15 @@
+{
+    "cc.etke.synapse-admin": {
+        "asManagedUsers": [
+            "^@bot\\.registration:kupo\\.quest$",
+            "^@bot\\.kupo:kupo\\.quest$"
+        ],
+        "corsCredentials": "same-origin",
+        "externalAuthProvider": false,
+        "menu": [],
+        "restrictBaseUrl": "https://matrix.kupo.quest"
+    },
+    "m.homeserver": {
+        "base_url": "https://matrix.kupo.quest"
+    }
+}
