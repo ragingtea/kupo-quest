@@ -9,6 +9,12 @@
         "menu": [],
         "restrictBaseUrl": "https://matrix.kupo.quest"
     },
+    "im.vector.riot.jitsi": {
+        "preferredDomain": "jitsi.kupo.quest"
+    },
+    "io.element.jitsi": {
+        "preferredDomain": "jitsi.kupo.quest"
+    },
     "m.homeserver": {
         "base_url": "https://matrix.kupo.quest"
     }
